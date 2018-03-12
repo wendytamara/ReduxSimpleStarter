@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = () => (
-  <div>Started with react and redux</div>
+  <div>React and redux are cool</div>
 )
 
 export default App
