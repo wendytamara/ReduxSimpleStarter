@@ -1,12 +1,15 @@
 
 
+
 import React from 'react';
 import Header from './Header';
-import Friends from './Section';
+import Section from './Section';
 import Footer from './Footer';
 const App = () => (
  <div>
    <Header />
+   <Section />
+   <Footer /> 
 
  </div>
 )
