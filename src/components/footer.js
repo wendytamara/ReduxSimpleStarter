@@ -1,20 +1,20 @@
 import React from 'react';
 
-const friends= ['bailar', 'escuchar musica', 'jugar'];
+const hobies= ['bailar', 'escuchar musica', 'jugar'];
 
      class Music extends Component {
     render(){
      
-      const musicArtis = this.props.friends.map((cancion,index)=>{
-          return <li key={index}>{cancion}</li>
+      const hobiesMy = this.props.hobies.map((hob,index)=>{
+          return <li key={index}>{hob}</li>
       })
         
         return (
             <div className="music-card"> 
              
                <div className="music-card-content">   
-                   <h3 className = "music-title-artist">{artista}</h3> 
-                   <ul>{musicArtis}</ul>                 
+                   <h3 className = "music-title-artist">{hob}</h3> 
+                   <ul>{hobiesMy}</ul>                 
                </div>
            </div>
         )
