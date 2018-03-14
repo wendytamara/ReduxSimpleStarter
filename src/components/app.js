@@ -1,21 +1,14 @@
+
+
 import React from 'react';
-import './footer.js';
-
+import Header from './Header';
+import Friends from './Section';
+import Footer from './Footer';
 const App = () => (
+ <div>
+   <Header />
 
-  <header>
-    <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
-    
-  </header>
+ </div>
 )
 
 export default App
