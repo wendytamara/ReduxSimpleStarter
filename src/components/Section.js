@@ -1,24 +1,16 @@
 import React from 'react';
 
- class Friends extends Component {
-    render(){
-      const hobies= ['bailar', 'escuchar musica', 'jugar'];
-      const hobiesMy = this.props.hobies.map((hob,index)=>{
-          return <li key={index}>{hob}</li>
-      })
-        
+   const hobies= ['bailar', 'escuchar musica', 'jugar'];
+
+   const Friends = () =>  {
+    const myHobies = hobies.map((el, index) => <a key={index}> {el} </a>)
         return (
-            <div >      
-               <div >   
-                   <h3 >{hob}</h3> 
-                   <ul>{hobiesMy}</ul>                 
-               </div>
+            <div >
+               <ul>{myHobies}</ul>
            </div>
-        )
-    }
+      )
  }
 
 
 
 export default Friends
-
